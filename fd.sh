@@ -1,0 +1,5 @@
+##!/bin/bash
+python /home/wuxinlai/software/genomics_general/ABBABABAwindows.py -g P_variant_geno.gz -f phased -o rmat.csv -P1 rubida -P2 montanella -P3 atrogularis -O Tree_sparrow --popsFile P.txt -w 50000 -m 50 -T 6 
+python /home/wuxinlai/software/genomics_general/ABBABABAwindows.py -g P_variant_geno.gz -f phased -o rmft.csv -P1 rubida -P2 montanella -P3 fulvescens -O Tree_sparrow --popsFile P.txt -w 50000 -m 50 -T 6 
+python /home/wuxinlai/software/genomics_general/ABBABABAwindows.py -g P_variant_geno.gz -f phased -o rmkt.csv -P1 rubida -P2 montanella -P3 koslowi -O Tree_sparrow --popsFile P.txt -w 50000 -m 50 -T 6 
+python /home/wuxinlai/software/genomics_general/ABBABABAwindows.py -g P_variant_geno.gz -f phased -o rmot.csv -P1 rubida -P2 montanella -P3 ocularis -O Tree_sparrow --popsFile P.txt -w 50000 -m 50 -T 6 
